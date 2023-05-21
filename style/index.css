@@ -1,0 +1,68 @@
+*
+{
+	font-family: 'Arial', 'Helvetica', sans-serif;
+	color: white;
+	text-shadow: 0 0 10px black;
+	
+	margin: 0;
+}
+
+body
+{
+	background-image: url("/img/bg.gif");
+}
+
+svg
+{
+	width: 20px;
+	height: 20px;
+}
+
+#infos
+{
+	margin: 10px;
+	text-align: center;
+}
+
+#infobox
+{
+	display: flex;
+	flex-direction: column;
+	
+	background-color: rgba(50, 50, 50, 0.75);
+	border-bottom: thin solid black;
+	border-right: thin solid black;
+}
+
+#infobox-closebtn, #infobox-openbtn
+{
+	text-align: center;
+}
+
+#infobox-closebtn
+{
+	margin-top: 10px;
+	padding-top: 4px;
+}
+
+#infobox-closebtn:hover, #infobox-openbtn:hover
+{
+	background-color: DodgerBlue;
+	cursor: pointer;
+}
+
+#infobox-openbtn
+{
+	display: none;
+}
+
+
+#infobox-openbtn svg
+{
+	fill: transparent;
+}
+
+#infobox-openbtn:hover svg
+{
+	fill: white;
+}
