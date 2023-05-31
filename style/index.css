@@ -34,9 +34,19 @@ svg
 	border-right: thin solid black;
 }
 
+#infobox audio
+{
+	width: 100%;
+}
+
 #infobox-closebtn, #infobox-openbtn
 {
 	text-align: center;
+}
+
+#infobox-closebtn, #infobox-openbtn, #infobox-openbtn svg
+{
+	transition: all .15s linear;
 }
 
 #infobox-closebtn
@@ -55,7 +65,6 @@ svg
 {
 	display: none;
 }
-
 
 #infobox-openbtn svg
 {
