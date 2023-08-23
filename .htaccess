@@ -1,0 +1,14 @@
+RewriteEngine On
+
+# if path doesn't exist, redirect to root
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*$ / [L,R=301]
+
+# redirect "index(.html)" to "/"
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html
+RewriteRule ^index\.html$ / [L,R=301]
+
+# remove parameters
+RewriteCond %{QUERY_STRING} .
+RewriteRule ^.*$ /? [L,R=301]
