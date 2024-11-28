@@ -2,7 +2,7 @@
 
 This repo contains the source code of the website located at `stickerbush-symphony.de`, redirected to by `stickerbrush-symphony.de`.
 
-A website dedicated to one of video game music's best tracks, _Stickerbush Symphony_, written by David Wise for Rareware's _Donkey Kong Country 2: Diddy's Kong Quest_ on the Super Nintendo Enertainment System (SNES).
+A website dedicated to one of video game music's best tracks, _Stickerbush Symphony_, written by David Wise for Rareware's _Donkey Kong Country 2: Diddy's Kong Quest_ on the Super Nintendo Entertainment System (SNES).
 
 
 
